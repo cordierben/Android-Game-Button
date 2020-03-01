@@ -23,7 +23,8 @@ public class Game extends AppCompatActivity {
     private TextView time;
     private int clicks = 0;
     private Timer temps=new Timer();
-    private int number =20;
+    private int number =30;
+    private DatabaseManager databaseManager;
 
 
 
@@ -35,6 +36,7 @@ public class Game extends AppCompatActivity {
         this.button= (ImageView) findViewById(R.id.button);
         this.score=(TextView) findViewById(R.id.score);
         this.time=(TextView) findViewById(R.id.timer);
+        databaseManager=new DatabaseManager(this);
 
         temps.schedule(new TimerTask() {
             @Override
@@ -45,7 +47,8 @@ public class Game extends AppCompatActivity {
                         number--;
                         time.setText("" + number);
                         if (number<0) {
-                            Intent start=new Intent(getApplicationContext(), MainActivity.class);
+                            databaseManager.insertScore("Joueur",clicks);
+                            Intent start=new Intent(getApplicationContext(), ResultPage.class);
                             startActivity(start);
                             finish();
                             System.exit(0);

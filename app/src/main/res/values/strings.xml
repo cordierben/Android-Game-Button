@@ -3,4 +3,5 @@
     <string name="play">Play!</string>
     <string name="score">0</string>
     <string name="time">20</string>
+    <string name="resultat">Votre score est de : </string>
 </resources>

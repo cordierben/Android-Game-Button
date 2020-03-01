@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultPage"
+    android:background="@color/black">
+
+        <TextView
+            android:id="@+id/scoreView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:layout_marginTop="200dp"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:text="@string/resultat"
+            />
+
+    <TextView
+        android:id="@+id/Points"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:layout_marginTop="350dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:text="Points!" />
+
+    <TextView
+        android:id="@+id/resultatpoints"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/white"
+        android:layout_marginTop="270dp"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/buttonResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="60dp"
+        android:text="menu" />
+
+    <Button
+        android:id="@+id/PlayAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="260dp"
+        android:text="Retry" />
+</RelativeLayout>
+
