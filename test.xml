@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>Mon flux RSS</title>
+        <title>Mon flux RSS2</title>
         <description>Exemple de flux RSS 2.0</description>
         <item>
             <title>Article N°1</title>
