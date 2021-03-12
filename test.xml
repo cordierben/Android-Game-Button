@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Mon flux RSS</title>
+        <description>Exemple de flux RSS 2.0</description>
+        <item>
+            <title>Article N°1</title>
+            <description>Premier article</description>
+            <link>http://www.example.org/actu1</link>
+        </item>
+        <item>
+            <title>Article N°2</title>
+            <description>Ceci est ma seconde actualité</description>
+            <link>http://www.example.org/actu2</link>
+        </item>
+    </channel>
+</rss>
