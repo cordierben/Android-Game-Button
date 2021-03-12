@@ -4,8 +4,8 @@
         <title>Mon flux RSS2</title>
         <description>Exemple de flux RSS 2.0</description>
         <item>
-            <!ENTITY test "test">
-            <title>$test</title>
+            
+            <title>test</title>
             <description>Premier article</description>
             <link>http://www.example.org/actu1</link>
         </item>
